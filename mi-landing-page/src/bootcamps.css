@@ -1,0 +1,73 @@
+.bootcamps-container {
+    padding: 20px;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    overflow: hidden;
+    width: 100%;
+    max-width: 300px;
+    height: 330px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .hourFormat{
+    display: flex;
+    gap: 10px;
+    padding-left: 10px;
+  }
+
+  .hourFormat p {
+    background-color: rgb(64, 64, 64);
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+  
+  .cardsTitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .cardsTitle h4{
+    justify-content: left;
+    margin-left: 3px;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  
+  img.imgBootcamps {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+  
+  h4 {
+    margin-bottom: 10px;
+  }
+
+  .descriptionP{
+    font-size: 1rem;
+    margin-top: 20px;
+    padding-left: 10px;
+  }
+
+  .bootcamps-container h2{
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+  .bootcamps-container h3{
+    font-size: 0.7rem;
+    margin-left: 100px;
+  }
