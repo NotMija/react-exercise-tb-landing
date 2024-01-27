@@ -1,4 +1,5 @@
 import React from 'react';
+import './header.css';
 
 const Header = () => {
   const header = {
@@ -9,11 +10,16 @@ const Header = () => {
   };
 
   return (
-    <header>
-      <h1>{header.title}</h1>
-      <h2>{header.subheading}</h2>
-      <p>{header.paragraph}</p>
-      <button>{header.button}</button>
+    <header className="header-container">
+      <div className="left-content">
+        <h1>{header.title}</h1>
+        <h2>{header.subheading}</h2>
+        <p>{header.paragraph}</p>
+        <button>{header.button}</button>
+      </div>
+      <div className="right-content">
+        <img className='imgHeader' src="/img/the-bridge.png" alt="The Bridge Logo"/>
+      </div>
     </header>
   );
 };
